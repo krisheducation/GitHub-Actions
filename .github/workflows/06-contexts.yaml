@@ -17,7 +17,7 @@ jobs:
   echo-data:
     runs-on: ubuntu-latest
     env:
-      MY_WORKFLOW_VARS: 'job'
+      MY_WORKFLOW_VAR: 'job'
       MY_OVRWRITTEN_VAR: 'job'
     steps:
       - name: Display Information
