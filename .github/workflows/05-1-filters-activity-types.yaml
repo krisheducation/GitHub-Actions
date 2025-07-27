@@ -10,4 +10,4 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: print pull request details
-          run: echo" Running when a pull request is opened or synchronized on the main branch"
+          run: echo "Running when a pull request is opened or synchronized on the main branch"
